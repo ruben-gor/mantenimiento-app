@@ -103,5 +103,5 @@ Ver `README.md`: Supabase → `.env.local` → `npm run dev` → Vercel.
 
 ## 10. Entrega
 
-- URL pública: `https://________.vercel.app`
+- URL pública: `https://mantenimiento-app-beta.vercel.app`
 - Repositorio: `https://github.com/ruben-gor/mantenimiento-app`
