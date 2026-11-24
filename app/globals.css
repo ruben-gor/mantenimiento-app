@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f8; color: #1d2433; }
+main { max-width: 720px; margin: 0 auto; padding: 16px; }
+header h1 { margin: 8px 0 0; }
+header p { margin: 4px 0 16px; color: #5a6478; }
+.tarjeta { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 1px 3px rgb(0 0 0 / 0.08); }
+.formulario { display: grid; gap: 6px; margin-bottom: 20px; }
+.formulario h2 { margin: 0 0 6px; font-size: 1.1rem; }
+label { font-weight: 600; font-size: 0.9rem; margin-top: 6px; }
+input, textarea, select { width: 100%; font: inherit; padding: 10px; border: 1px solid #cfd6e2; border-radius: 8px; }
+button { font: inherit; cursor: pointer; border: 0; border-radius: 8px; padding: 10px 14px; background: #2457d6; color: #fff; }
+button:disabled { opacity: 0.6; }
+.formulario button { margin-top: 10px; }
+.error, .aviso { color: #a3161a; background: #fde8e8; padding: 8px 10px; border-radius: 8px; }
+.exito { color: #126b33; }
+.vacio { text-align: center; color: #5a6478; }
+.lista { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.incidencia p { margin: 8px 0; overflow-wrap: anywhere; }
+.incidencia.resuelta { opacity: 0.6; }
+.cabecera, .pie { display: flex; align-items: center; gap: 8px; }
+.cabecera { justify-content: space-between; }
+.pie time { flex: 1; font-size: 0.8rem; color: #5a6478; }
+.prioridad { font-size: 0.75rem; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
+.prioridad.alta { background: #fde8e8; color: #a3161a; }
+.prioridad.media { background: #fff4d6; color: #8a5a00; }
+.prioridad.baja { background: #e3f4e8; color: #126b33; }
+.estado { background: #eef2fb; color: #2457d6; padding: 6px 10px; }
+.borrar { background: transparent; color: #a3161a; padding: 6px 10px; }
